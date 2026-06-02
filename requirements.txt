@@ -1,0 +1,5 @@
+# Dependências do projeto CEAP — 56ª Legislatura
+# Instalar com: pip install -r requirements.txt
+ 
+# Coleta e HTTP
+requests>=2.34.2

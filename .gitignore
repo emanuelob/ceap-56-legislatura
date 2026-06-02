@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Dados brutos — INCLUIR no repositório (< 50 MB, melhora reprodutibilidade)
+# Se os CSVs forem muito grandes, descomente as linhas abaixo:
+# data/raw/
+# data/processed/
+# database/*.db
+
+# Arquivos temporários
+*.tmp
+*.log
+*.bak
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
