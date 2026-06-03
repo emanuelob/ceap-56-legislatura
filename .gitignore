@@ -13,16 +13,19 @@ env/
 .ipynb_checkpoints/
 */.ipynb_checkpoints/
 
-# Dados brutos — INCLUIR no repositório (< 50 MB, melhora reprodutibilidade)
-# Se os CSVs forem muito grandes, descomente as linhas abaixo:
-# data/raw/
-# data/processed/
-# database/*.db
-
 # Arquivos temporários
 *.tmp
 *.log
 *.bak
+
+# Pastas de dados de tamanho considerável
+data/processed/*
+!data/processed/.gitkeep
+
+# Banco de dados
+database/*.db
+database/*.sqlite
+!database/.gitkeep
 
 # Windows
 Thumbs.db
