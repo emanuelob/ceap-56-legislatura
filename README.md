@@ -27,18 +27,21 @@ completa (2019-2023)**, seguindo os padrões metodológicos do
 ```
 ceap-56-legislatura/
 ├── data/
-│   ├── processed/     # Dados limpos e integrados (O arquivo aparecerá após rodar os notebooks localmente)
+│   ├── processed/     # Dados limpos e integrados (os arquivos aparecerão após rodar os notebooks localmente)
 │   ├── raw/           # CSVs originais da API
 ├── database/
-│   └── ceap.db        # SQLite com todos os dados (O arquivo aparecerá após rodar os notebooks localmente)
+│   └── ceap.db        # SQLite com todos os dados (o arquivo aparecerá após rodar os notebooks localmente)
 ├── logs/
 │   └── coleta_metadata.json   # Log de coleta
 ├── notebooks/
 │   ├── 01_coleta.ipynb
 │   ├── 02_preprocessamento.ipynb
+│   ├── 03_feature_engineering.ipynb
 ├── src/
 │   ├── collect.py      # Coleta via API
 │   ├── preprocess.py   # Limpeza e padronização
+│   ├── features.py     # Engenharia de atributos
+│   ├── utils.py        # Funções utilitárias
 ├── .gitignore
 ├── README.md
 └── requirements.txt
@@ -75,4 +78,3 @@ jupyter notebook            # Interface do Jupyter Notebook
 - Endpoint: `GET /api/v1/senadores/despesas_ceaps/{ano}/csv`
 - Acesso: público, sem autenticação
 - Log de coleta: `logs/coleta_metadata.json`
-
