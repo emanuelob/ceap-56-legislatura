@@ -31,8 +31,5 @@ database/*.sqlite
 Thumbs.db
 desktop.ini
 
-# IDEs
+# IDE
 .vscode/
-.idea/
-*.swp
-*.swo

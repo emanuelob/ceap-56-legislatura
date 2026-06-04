@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-06-04T12:36:27.033155",
+  "total_registros_brutos": 88180,
+  "registros_validos": 88111,
+  "registros_estorno": 69,
+  "datas_invalidas_nat": 6,
+  "percentual_estornos": 0.0782,
+  "nulos_por_coluna": {
+    "tipo_despesa": 97,
+    "documento": 3704,
+    "detalhamento": 41120,
+    "data_despesa": 3
+  },
+  "colunas_geradas": [
+    "nome_senador_limpo",
+    "tipo_despesa_limpo",
+    "nome_fornecedor_limpo",
+    "tipo_documento_limpo",
+    "detalhamento_limpo",
+    "valor_limpo",
+    "documento_fornecedor",
+    "data_despesa",
+    "ano",
+    "mes",
+    "cod_senador"
+  ],
+  "decisoes_filtragem": [
+    "Registros com valor_limpo <= 0 isolados em tabela 'estornos_ceap' (não descartados — preservados para auditoria).",
+    "Datas malformadas convertidas para NaT via errors='coerce' (não removidas da tabela fato)."
+  ]
+}
