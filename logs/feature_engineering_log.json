@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-06-05T00:19:11.017521",
+  "n_registros": 88111,
+  "n_senadores_unicos": 176,
+  "n_features_derivadas": 22,
+  "cobertura_minima_pct": 100.0,
+  "inventario": {
+    "temporais": [
+      "periodo_ano_mes",
+      "trimestre",
+      "semestre",
+      "ano_eleitoral",
+      "is_fim_de_semana",
+      "periodo_pandemia"
+    ],
+    "por_senador": [
+      "gasto_total_senador",
+      "gasto_medio_mensal_senador",
+      "n_fornecedores_distintos",
+      "n_categorias_distintas",
+      "proporcao_maior_categoria",
+      "proporcao_fds_por_senador",
+      "proporcao_fim_mes_senador",
+      "proporcao_maior_fornecedor"
+    ],
+    "por_categoria": [
+      "gasto_total_categoria",
+      "percentual_categoria_global",
+      "rank_categoria"
+    ],
+    "anomalia": [
+      "valor_log1p",
+      "zscore_categoria",
+      "iqr_outlier_flag",
+      "primeiro_digito",
+      "anomalia_consenso"
+    ]
+  },
+  "features_clustering": [
+    "gasto_total_senador",
+    "gasto_medio_mensal_senador",
+    "n_fornecedores_distintos",
+    "n_categorias_distintas",
+    "proporcao_maior_categoria",
+    "proporcao_fds_por_senador",
+    "proporcao_fim_mes_senador",
+    "proporcao_maior_fornecedor"
+  ]
+}

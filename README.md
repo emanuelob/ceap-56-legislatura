@@ -28,19 +28,24 @@ completa (2019-2023)**, seguindo os padrões metodológicos do
 ceap-56-legislatura/
 ├── data/
 │   ├── processed/     # Dados limpos e integrados (os arquivos aparecerão após rodar os notebooks localmente)
-│   ├── raw/           # CSVs originais da API
-├── database/
-│   └── ceap.db        # SQLite com todos os dados (o arquivo aparecerá após rodar os notebooks localmente)
-├── logs/
-│   └── coleta_metadata.json   # Log de coleta
-├── notebooks/
+│   └── raw/           # CSVs originais da API
+├── database/          # SQLite com todos os dados (o arquivo aparecerá após rodar os notebooks localmente)
+│   └── ceap.db        
+├── figures/           # Gráficos gerados na fase de Feature Engineering
+│   ├── fe_benford.png              
+│   └── fe_comportamentais.png      
+├── logs/              # Logs de rastreabilidade
+│   ├── coleta_metadata.json                
+│   ├── feature_engineering_log.json        
+│   └── preprocessamento_qualidade.json     
+├── notebooks/        
 │   ├── 01_coleta.ipynb
 │   ├── 02_preprocessamento.ipynb
 │   ├── 03_feature_engineering.ipynb
 ├── src/
 │   ├── collect.py      # Coleta via API
-│   ├── preprocess.py   # Limpeza e padronização
 │   ├── features.py     # Engenharia de atributos
+│   ├── preprocess.py   # Limpeza e padronização
 │   ├── utils.py        # Funções utilitárias
 ├── .gitignore
 ├── README.md
