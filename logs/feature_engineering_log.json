@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-06T13:43:37.773762",
+  "timestamp": "2026-06-07T12:07:48.693262",
   "n_registros": 88111,
   "n_senadores_unicos": 176,
   "n_features_derivadas": 22,
-  "cobertura_minima_pct": 100.0,
+  "cobertura_minima_pct": 99.97,
   "inventario": {
     "temporais": [
       "periodo_ano_mes",
