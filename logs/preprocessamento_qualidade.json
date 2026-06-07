@@ -1,15 +1,244 @@
 {
-  "timestamp": "2026-06-04T12:36:27.033155",
+  "timestamp": "2026-06-07T10:08:47.536487",
   "total_registros_brutos": 88180,
   "registros_validos": 88111,
   "registros_estorno": 69,
-  "datas_invalidas_nat": 6,
+  "datas_invalidas_nat": 0,
+  "anos_implausiveis": {
+    "intervalo_observado_ano": [
+      2019,
+      2023
+    ],
+    "intervalo_tolerado_ano": [
+      2018,
+      2024
+    ],
+    "justificativa_tolerancia": "±1 ano em torno do intervalo de 'ano' absorve referências cruzadas legítimas entre dezembro/janeiro (nota fiscal de um ano, despesa reportada no ano seguinte ou anterior).",
+    "total_registros": 27,
+    "exemplos": [
+      {
+        "ano": "2022",
+        "mes": "12",
+        "cod_senador": "22",
+        "nome_senador": "ESPERIDIÃO AMIN",
+        "data": "2000-12-08",
+        "data_despesa": "2000-12-08"
+      },
+      {
+        "ano": "2022",
+        "mes": "2",
+        "cod_senador": "5352",
+        "nome_senador": "ROGÉRIO CARVALHO",
+        "data": "2002-02-02",
+        "data_despesa": "2002-02-02"
+      },
+      {
+        "ano": "2022",
+        "mes": "2",
+        "cod_senador": "374",
+        "nome_senador": "PAULO ROCHA",
+        "data": "2002-02-11",
+        "data_despesa": "2002-02-11"
+      },
+      {
+        "ano": "2022",
+        "mes": "2",
+        "cod_senador": "374",
+        "nome_senador": "PAULO ROCHA",
+        "data": "2002-03-22",
+        "data_despesa": "2002-03-22"
+      },
+      {
+        "ano": "2022",
+        "mes": "3",
+        "cod_senador": "374",
+        "nome_senador": "PAULO ROCHA",
+        "data": "2002-03-16",
+        "data_despesa": "2002-03-16"
+      },
+      {
+        "ano": "2022",
+        "mes": "7",
+        "cod_senador": "374",
+        "nome_senador": "PAULO ROCHA",
+        "data": "2002-06-21",
+        "data_despesa": "2002-06-21"
+      },
+      {
+        "ano": "2022",
+        "mes": "8",
+        "cod_senador": "374",
+        "nome_senador": "PAULO ROCHA",
+        "data": "2002-08-11",
+        "data_despesa": "2002-08-11"
+      },
+      {
+        "ano": "2023",
+        "mes": "5",
+        "cod_senador": "475",
+        "nome_senador": "CONFÚCIO MOURA",
+        "data": "2002-04-24",
+        "data_despesa": "2002-04-24"
+      },
+      {
+        "ano": "2023",
+        "mes": "10",
+        "cod_senador": "4560",
+        "nome_senador": "SÉRGIO PETECÃO",
+        "data": "2002-10-26",
+        "data_despesa": "2002-10-26"
+      },
+      {
+        "ano": "2023",
+        "mes": "11",
+        "cod_senador": "5386",
+        "nome_senador": "PROFESSORA DORINHA SEABRA",
+        "data": "1973-11-20",
+        "data_despesa": "1973-11-20"
+      },
+      {
+        "ano": "2023",
+        "mes": "12",
+        "cod_senador": "5376",
+        "nome_senador": "MARA GABRILLI",
+        "data": "0023-10-27",
+        "data_despesa": "23-10-27"
+      },
+      {
+        "ano": "2023",
+        "mes": "12",
+        "cod_senador": "5376",
+        "nome_senador": "MARA GABRILLI",
+        "data": "0023-10-27",
+        "data_despesa": "23-10-27"
+      },
+      {
+        "ano": "2023",
+        "mes": "12",
+        "cod_senador": "742",
+        "nome_senador": "MARCELO CASTRO",
+        "data": "0023-10-07",
+        "data_despesa": "23-10-07"
+      },
+      {
+        "ano": "2023",
+        "mes": "10",
+        "cod_senador": "825",
+        "nome_senador": "PAULO PAIM",
+        "data": "1977-10-10",
+        "data_despesa": "1977-10-10"
+      },
+      {
+        "ano": "2021",
+        "mes": "1",
+        "cod_senador": "5942",
+        "nome_senador": "MARCOS DO VAL",
+        "data": "2010-01-22",
+        "data_despesa": "2010-01-22"
+      },
+      {
+        "ano": "2021",
+        "mes": "11",
+        "cod_senador": "5990",
+        "nome_senador": "CARLOS VIANA",
+        "data": "0202-10-28",
+        "data_despesa": "202-10-28"
+      },
+      {
+        "ano": "2021",
+        "mes": "2",
+        "cod_senador": "5982",
+        "nome_senador": "ALESSANDRO VIEIRA",
+        "data": "2002-02-19",
+        "data_despesa": "2002-02-19"
+      },
+      {
+        "ano": "2020",
+        "mes": "3",
+        "cod_senador": "3396",
+        "nome_senador": "TASSO JEREISSATI",
+        "data": "2002-03-14",
+        "data_despesa": "2002-03-14"
+      },
+      {
+        "ano": "2020",
+        "mes": "5",
+        "cod_senador": "5502",
+        "nome_senador": "PLÍNIO VALÉRIO",
+        "data": "0202-05-04",
+        "data_despesa": "202-05-04"
+      },
+      {
+        "ano": "2020",
+        "mes": "6",
+        "cod_senador": "5953",
+        "nome_senador": "FABIANO CONTARATO",
+        "data": "2014-07-06",
+        "data_despesa": "2014-07-06"
+      },
+      {
+        "ano": "2019",
+        "mes": "10",
+        "cod_senador": "22",
+        "nome_senador": "ESPERIDIÃO AMIN",
+        "data": "2010-09-12",
+        "data_despesa": "2010-09-12"
+      },
+      {
+        "ano": "2019",
+        "mes": "1",
+        "cod_senador": "374",
+        "nome_senador": "PAULO ROCHA",
+        "data": "2014-01-08",
+        "data_despesa": "2014-01-08"
+      },
+      {
+        "ano": "2019",
+        "mes": "9",
+        "cod_senador": "5783",
+        "nome_senador": "ZENAIDE MAIA",
+        "data": "2010-10-07",
+        "data_despesa": "2010-10-07"
+      },
+      {
+        "ano": "2019",
+        "mes": "9",
+        "cod_senador": "5783",
+        "nome_senador": "ZENAIDE MAIA",
+        "data": "2010-10-14",
+        "data_despesa": "2010-10-14"
+      },
+      {
+        "ano": "2019",
+        "mes": "12",
+        "cod_senador": "5924",
+        "nome_senador": "ORIOVISTO GUIMARÃES",
+        "data": "2016-01-06",
+        "data_despesa": "2016-01-06"
+      },
+      {
+        "ano": "2019",
+        "mes": "1",
+        "cod_senador": "643",
+        "nome_senador": "LÚCIA VÂNIA",
+        "data": "0219-01-30",
+        "data_despesa": "219-01-30"
+      },
+      {
+        "ano": "2019",
+        "mes": "8",
+        "cod_senador": "4531",
+        "nome_senador": "JAYME CAMPOS",
+        "data": "2009-08-02",
+        "data_despesa": "2009-08-02"
+      }
+    ]
+  },
   "percentual_estornos": 0.0782,
   "nulos_por_coluna": {
     "tipo_despesa": 97,
     "documento": 3704,
-    "detalhamento": 41120,
-    "data_despesa": 3
+    "detalhamento": 41120
   },
   "colunas_geradas": [
     "nome_senador_limpo",
@@ -26,6 +255,7 @@
   ],
   "decisoes_filtragem": [
     "Registros com valor_limpo <= 0 isolados em tabela 'estornos_ceap' (não descartados — preservados para auditoria).",
-    "Datas malformadas convertidas para NaT via errors='coerce' (não removidas da tabela fato)."
+    "Datas malformadas convertidas para NaT via errors='coerce' (não removidas da tabela fato).",
+    "Datas com ano fora do intervalo observado em 'ano' sinalizadas em 'anos_implausiveis' (não removidas — provável corrupção de dígitos na fonte; ex.: '0202-05-04' em vez de '2020-05-04')."
   ]
 }

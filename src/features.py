@@ -134,10 +134,10 @@ def adicionar_features_temporais(df: pd.DataFrame) -> pd.DataFrame:
     df['periodo_pandemia'] = pd.cut(
         df['data_despesa'],
         bins=[
-            pd.Timestamp.min,
+            pd.Timestamp("1900-01-01"),
             INICIO_PANDEMIA - pd.Timedelta(days=1),
             FIM_PANDEMIA,
-            pd.Timestamp.max,
+            pd.Timestamp("2100-01-01"),
         ],
         labels=['pre_pandemia', 'pandemia', 'pos_pandemia'],
         right=True,
