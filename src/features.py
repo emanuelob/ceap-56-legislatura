@@ -121,13 +121,13 @@ def adicionar_features_temporais(df: pd.DataFrame) -> pd.DataFrame:
     # Granularidade mensal — pré-requisito para features de senador (Grupo 2)
     df['periodo_ano_mes'] = df['data_despesa'].dt.to_period('M').astype(str)
 
-    # Trimestre e semestre — baseados em 'mes' inteiro (mais robusto que datetime)
+    # Trimestre e semestre — baseados em 'mes' inteiro 
     df['trimestre'] = ((df['mes'] - 1) // 3 + 1).astype('Int64')
     df['semestre']  = df['mes'].apply(
         lambda m: 1 if pd.notna(m) and m <= 6 else 2
     )
 
-    # Variável de controle: ano eleitoral
+    # Variável de controle: ano eleitoral é booleano para 2022
     df['ano_eleitoral'] = (df['ano'] == ANO_ELEITORAL)
 
     # Classificação de período pandemia
