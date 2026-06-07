@@ -142,9 +142,38 @@ def preprocessar_dataframe(df_raw: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataF
     df['documento_fornecedor'] = df['cpf_cnpj_fornecedor'].apply(limpar_documento)
 
     # Etapa 4: Conversão de datas
-    # errors='coerce' transforma datas inválidas em NaT (rastreável).
+    # errors='coerce' transforma datas sintaticamente inválidas em NaT (rastreável).
     df['data_despesa'] = pd.to_datetime(df['data'], format='%Y-%m-%d', errors='coerce')
-    n_nat = df['data_despesa'].isna().sum()
+
+    """
+    Etapa 4b: Anulação de anos implausíveis em datas tecnicamente válidas
+
+    Existem datas que passam no parsing, ou seja, são strings sintaticamente corretas, mas possuem data corrompida da fonte.
+    (ex: "0202-05-04" em vez de "2020-05-04". Dígitos trocados/truncados no sistema do Senado, visíveis já no CSV bruto)
+
+    Para isso, foi aplicada uma tolerância de ±1 ano entre a data da despesa e o ano reportado para evitar falsos positivos decorrentes de lançamentos contábeis entre anos consecutivos.
+    Desvios fora dessa janela tendem a indicar erros de digitação ou datas potencialmente corrompidas.
+
+    Esses registros são capturados para o relatório de qualidade (auditoria)
+    e então anulados (NaT) — o mesmo tratamento dado às datas sintaticamente
+    malformadas — para não propagar 'data_despesa'/'periodo_ano_mes' corrompidos
+    (ex.: "0202-10") para a tabela fato e para o feature engineering.
+    """
+    ano_min, ano_max = int(df['ano'].min()), int(df['ano'].max())
+    mask_ano_implausivel = (
+        df['data_despesa'].notna()
+        & ~df['data_despesa'].dt.year.between(ano_min - 1, ano_max + 1)
+    )
+    n_anos_implausiveis = int(mask_ano_implausivel.sum())
+    exemplos_anos_implausiveis = (
+        df.loc[mask_ano_implausivel,
+               ['ano', 'mes', 'cod_senador', 'nome_senador', 'data', 'data_despesa']]
+          .astype(str)
+          .to_dict(orient='records')
+    )
+
+    df.loc[mask_ano_implausivel, 'data_despesa'] = pd.NaT
+    n_nat = int(df['data_despesa'].isna().sum())
 
     # Etapa 5: Padronização textual de campos categóricos
     colunas_texto = {
@@ -170,6 +199,17 @@ def preprocessar_dataframe(df_raw: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataF
         "registros_validos"      : len(df_fato),
         "registros_estorno"      : len(df_estornos),
         "datas_invalidas_nat"    : int(n_nat),
+        "anos_implausiveis": {
+            "intervalo_observado_ano" : [ano_min, ano_max],
+            "intervalo_tolerado_ano"  : [ano_min - 1, ano_max + 1],
+            "justificativa_tolerancia": (
+                "±1 ano em torno do intervalo de 'ano' absorve referências "
+                "cruzadas legítimas entre dezembro/janeiro (nota fiscal de "
+                "um ano, despesa reportada no ano seguinte ou anterior)."
+            ),
+            "total_registros": n_anos_implausiveis,
+            "exemplos"       : exemplos_anos_implausiveis,
+        },
         "percentual_estornos"    : round(len(df_estornos) / total_bruto * 100, 4),
         "nulos_por_coluna": {
             col: int(df_fato[col].isna().sum())
@@ -185,6 +225,13 @@ def preprocessar_dataframe(df_raw: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataF
             "(não descartados — preservados para auditoria).",
             "Datas malformadas convertidas para NaT via errors='coerce' "
             "(não removidas da tabela fato).",
+            "Datas com ano fora do intervalo observado em 'ano' (provável "
+            "corrupção de dígitos na fonte; ex.: '0202-05-04' em vez de "
+            "'2020-05-04') são registradas em 'anos_implausiveis' para "
+            "auditoria e então anuladas para NaT — mesmo tratamento dado "
+            "às datas sintaticamente malformadas — para não propagar "
+            "'data_despesa'/'periodo_ano_mes' corrompidos para a tabela "
+            "fato e o feature engineering.",
         ],
     }
 
