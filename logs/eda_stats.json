@@ -1,0 +1,970 @@
+{
+  "rq1_tabela": [
+    {
+      "categoria": "CONTRATAÇÃO DE CONSULTORIAS, ASSESSORIAS, PESQUISAS, TRABALHOS TÉCNICOS E OUTROS SERVIÇOS DE APOIO AO EXERCÍCIO DO MANDATO PARLAMENTAR",
+      "n_registros": 5988,
+      "total": 31575626.15,
+      "media": 5273.150659652639,
+      "mediana": 2000.0,
+      "rank": 1,
+      "percentual": 24.84,
+      "pct_acumulado": 24.84
+    },
+    {
+      "categoria": "PASSAGENS AÉREAS, AQUÁTICAS E TERRESTRES NACIONAIS",
+      "n_registros": 17969,
+      "total": 28307700.79,
+      "media": 1575.3631693472091,
+      "mediana": 1425.37,
+      "rank": 2,
+      "percentual": 22.27,
+      "pct_acumulado": 47.11
+    },
+    {
+      "categoria": "LOCOMOÇÃO, HOSPEDAGEM, ALIMENTAÇÃO, COMBUSTÍVEIS E LUBRIFICANTES",
+      "n_registros": 33062,
+      "total": 24340259.02,
+      "media": 736.200442199504,
+      "mediana": 200.0,
+      "rank": 3,
+      "percentual": 19.15,
+      "pct_acumulado": 66.26
+    },
+    {
+      "categoria": "ALUGUEL DE IMÓVEIS PARA ESCRITÓRIO POLÍTICO, COMPREENDENDO DESPESAS CONCERNENTES A ELES.",
+      "n_registros": 18747,
+      "total": 20562584.99,
+      "media": 1096.8466949378567,
+      "mediana": 390.64,
+      "rank": 4,
+      "percentual": 16.18,
+      "pct_acumulado": 82.44
+    },
+    {
+      "categoria": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR",
+      "n_registros": 5855,
+      "total": 17172288.87,
+      "media": 2932.927219470538,
+      "mediana": 1500.0,
+      "rank": 5,
+      "percentual": 13.51,
+      "pct_acumulado": 95.95
+    },
+    {
+      "categoria": "AQUISIÇÃO DE MATERIAL DE CONSUMO PARA USO NO ESCRITÓRIO POLÍTICO, INCLUSIVE AQUISIÇÃO OU LOCAÇÃO DE SOFTWARE, DESPESAS POSTAIS, AQUISIÇÃO DE PUBLICAÇÕES, LOCAÇÃO DE MÓVEIS E DE EQUIPAMENTOS.",
+      "n_registros": 6267,
+      "total": 4766684.75,
+      "media": 760.6007260252114,
+      "mediana": 204.99,
+      "rank": 6,
+      "percentual": 3.75,
+      "pct_acumulado": 99.7
+    },
+    {
+      "categoria": "NAO_INFORMADO",
+      "n_registros": 97,
+      "total": 224604.84,
+      "media": 2315.51381443299,
+      "mediana": 3500.0,
+      "rank": 7,
+      "percentual": 0.18,
+      "pct_acumulado": 99.88
+    },
+    {
+      "categoria": "SERVIÇOS DE SEGURANÇA PRIVADA",
+      "n_registros": 126,
+      "total": 142026.92,
+      "media": 1127.197777777778,
+      "mediana": 440.24,
+      "rank": 8,
+      "percentual": 0.11,
+      "pct_acumulado": 99.99
+    }
+  ],
+  "rq1": {
+    "n_categorias_80pct": 4,
+    "top3_pct": 66.25999999999999
+  },
+  "rq2_tabela": [
+    {
+      "cod_senador": 5352,
+      "nome": "ROGÉRIO CARVALHO",
+      "total": 2467717.68,
+      "n_registros": 1400,
+      "gasto_total_senador": 2467717.68,
+      "gasto_medio_mensal_senador": 40454.38819672132,
+      "n_fornecedores_distintos": 158,
+      "n_categorias_distintas": 6,
+      "proporcao_maior_categoria": 0.29010025166249975,
+      "proporcao_maior_fornecedor": 0.25327046325655855,
+      "rank": 1
+    },
+    {
+      "cod_senador": 6027,
+      "nome": "MECIAS DE JESUS",
+      "total": 2426283.92,
+      "n_registros": 626,
+      "gasto_total_senador": 2426283.92,
+      "gasto_medio_mensal_senador": 41123.45627118644,
+      "n_fornecedores_distintos": 42,
+      "n_categorias_distintas": 6,
+      "proporcao_maior_categoria": 0.3093769174384175,
+      "proporcao_maior_fornecedor": 0.2178261149255772,
+      "rank": 2
+    },
+    {
+      "cod_senador": 3830,
+      "nome": "DAVI ALCOLUMBRE",
+      "total": 2197552.68,
+      "n_registros": 314,
+      "gasto_total_senador": 2197552.68,
+      "gasto_medio_mensal_senador": 37888.839310344825,
+      "n_fornecedores_distintos": 25,
+      "n_categorias_distintas": 6,
+      "proporcao_maior_categoria": 0.6446261847975358,
+      "proporcao_maior_fornecedor": 0.15608272016486993,
+      "rank": 3
+    },
+    {
+      "cod_senador": 5525,
+      "nome": "OMAR AZIZ",
+      "total": 2188714.15,
+      "n_registros": 300,
+      "gasto_total_senador": 2188714.15,
+      "gasto_medio_mensal_senador": 40531.74351851852,
+      "n_fornecedores_distintos": 11,
+      "n_categorias_distintas": 3,
+      "proporcao_maior_categoria": 0.6283141176749828,
+      "proporcao_maior_fornecedor": 0.43861369471202993,
+      "rank": 4
+    },
+    {
+      "cod_senador": 3806,
+      "nome": "ZEQUINHA MARINHO",
+      "total": 2164686.56,
+      "n_registros": 2125,
+      "gasto_total_senador": 2164686.56,
+      "gasto_medio_mensal_senador": 35486.66491803279,
+      "n_fornecedores_distintos": 345,
+      "n_categorias_distintas": 6,
+      "proporcao_maior_categoria": 0.34966422113324347,
+      "proporcao_maior_fornecedor": 0.33838659302250207,
+      "rank": 5
+    },
+    {
+      "cod_senador": 5718,
+      "nome": "ELIZIANE GAMA",
+      "total": 2161746.52,
+      "n_registros": 567,
+      "gasto_total_senador": 2161746.52,
+      "gasto_medio_mensal_senador": 35438.467540983605,
+      "n_fornecedores_distintos": 43,
+      "n_categorias_distintas": 6,
+      "proporcao_maior_categoria": 0.3771169988977246,
+      "proporcao_maior_fornecedor": 0.1326792005197723,
+      "rank": 6
+    },
+    {
+      "cod_senador": 470,
+      "nome": "CHICO RODRIGUES",
+      "total": 2141571.19,
+      "n_registros": 627,
+      "gasto_total_senador": 2141571.19,
+      "gasto_medio_mensal_senador": 36297.816779661014,
+      "n_fornecedores_distintos": 42,
+      "n_categorias_distintas": 6,
+      "proporcao_maior_categoria": 0.36697754138166194,
+      "proporcao_maior_fornecedor": 0.24279980624879438,
+      "rank": 7
+    },
+    {
+      "cod_senador": 285,
+      "nome": "MARCIO BITTAR",
+      "total": 2124237.27,
+      "n_registros": 399,
+      "gasto_total_senador": 2124237.27,
+      "gasto_medio_mensal_senador": 38622.49581818182,
+      "n_fornecedores_distintos": 52,
+      "n_categorias_distintas": 6,
+      "proporcao_maior_categoria": 0.5317004535938681,
+      "proporcao_maior_fornecedor": 0.21261278407002057,
+      "rank": 8
+    },
+    {
+      "cod_senador": 5926,
+      "nome": "LUCAS BARRETO",
+      "total": 2106477.53,
+      "n_registros": 1282,
+      "gasto_total_senador": 2106477.53,
+      "gasto_medio_mensal_senador": 36955.74614035087,
+      "n_fornecedores_distintos": 43,
+      "n_categorias_distintas": 6,
+      "proporcao_maior_categoria": 0.2736146205176943,
+      "proporcao_maior_fornecedor": 0.25994972279623607,
+      "rank": 9
+    },
+    {
+      "cod_senador": 4994,
+      "nome": "EDUARDO BRAGA",
+      "total": 2103188.38,
+      "n_registros": 434,
+      "gasto_total_senador": 2103188.38,
+      "gasto_medio_mensal_senador": 34478.49803278688,
+      "n_fornecedores_distintos": 39,
+      "n_categorias_distintas": 4,
+      "proporcao_maior_categoria": 0.7489501439714117,
+      "proporcao_maior_fornecedor": 0.6204865015467611,
+      "rank": 10
+    },
+    {
+      "cod_senador": 581,
+      "nome": "JAQUES WAGNER",
+      "total": 2088988.82,
+      "n_registros": 2496,
+      "gasto_total_senador": 2088988.82,
+      "gasto_medio_mensal_senador": 34245.71836065574,
+      "n_fornecedores_distintos": 443,
+      "n_categorias_distintas": 7,
+      "proporcao_maior_categoria": 0.44435570507265804,
+      "proporcao_maior_fornecedor": 0.2927253579078513,
+      "rank": 11
+    },
+    {
+      "cod_senador": 5982,
+      "nome": "ALESSANDRO VIEIRA",
+      "total": 2053577.61,
+      "n_registros": 1101,
+      "gasto_total_senador": 2053577.61,
+      "gasto_medio_mensal_senador": 33122.21951612904,
+      "n_fornecedores_distintos": 111,
+      "n_categorias_distintas": 7,
+      "proporcao_maior_categoria": 0.438284321769558,
+      "proporcao_maior_fornecedor": 0.17852875791726222,
+      "rank": 12
+    },
+    {
+      "cod_senador": 4560,
+      "nome": "SÉRGIO PETECÃO",
+      "total": 2052544.92,
+      "n_registros": 548,
+      "gasto_total_senador": 2052544.92,
+      "gasto_medio_mensal_senador": 35388.705517241375,
+      "n_fornecedores_distintos": 57,
+      "n_categorias_distintas": 6,
+      "proporcao_maior_categoria": 0.3901964006712214,
+      "proporcao_maior_fornecedor": 0.18533090130860572,
+      "rank": 13
+    },
+    {
+      "cod_senador": 5967,
+      "nome": "ANGELO CORONEL",
+      "total": 2017689.81,
+      "n_registros": 493,
+      "gasto_total_senador": 2017689.81,
+      "gasto_medio_mensal_senador": 32543.384032258065,
+      "n_fornecedores_distintos": 73,
+      "n_categorias_distintas": 7,
+      "proporcao_maior_categoria": 0.345687576228578,
+      "proporcao_maior_fornecedor": 0.3480169729359936,
+      "rank": 14
+    },
+    {
+      "cod_senador": 5535,
+      "nome": "TELMÁRIO MOTA",
+      "total": 1992047.09,
+      "n_registros": 1550,
+      "gasto_total_senador": 1992047.09,
+      "gasto_medio_mensal_senador": 39840.9418,
+      "n_fornecedores_distintos": 190,
+      "n_categorias_distintas": 7,
+      "proporcao_maior_categoria": 0.48282897770253014,
+      "proporcao_maior_fornecedor": 0.23764498458718664,
+      "rank": 15
+    },
+    {
+      "cod_senador": 5012,
+      "nome": "RANDOLFE RODRIGUES",
+      "total": 1966269.94,
+      "n_registros": 920,
+      "gasto_total_senador": 1966269.94,
+      "gasto_medio_mensal_senador": 32771.16566666667,
+      "n_fornecedores_distintos": 57,
+      "n_categorias_distintas": 7,
+      "proporcao_maior_categoria": 0.45667095434515975,
+      "proporcao_maior_fornecedor": 0.37819216724637517,
+      "rank": 16
+    },
+    {
+      "cod_senador": 5985,
+      "nome": "NELSINHO TRAD",
+      "total": 1962987.58,
+      "n_registros": 634,
+      "gasto_total_senador": 1962987.58,
+      "gasto_medio_mensal_senador": 33270.97593220339,
+      "n_fornecedores_distintos": 50,
+      "n_categorias_distintas": 6,
+      "proporcao_maior_categoria": 0.5502907970512988,
+      "proporcao_maior_fornecedor": 0.4540018536439237,
+      "rank": 17
+    },
+    {
+      "cod_senador": 5411,
+      "nome": "WEVERTON ROCHA",
+      "total": 1939837.58,
+      "n_registros": 1197,
+      "gasto_total_senador": 1939837.58,
+      "gasto_medio_mensal_senador": 33445.47551724138,
+      "n_fornecedores_distintos": 92,
+      "n_categorias_distintas": 7,
+      "proporcao_maior_categoria": 0.3760384155461098,
+      "proporcao_maior_fornecedor": 0.3653669447933883,
+      "rank": 18
+    },
+    {
+      "cod_senador": 1173,
+      "nome": "WELLINGTON FAGUNDES",
+      "total": 1928073.59,
+      "n_registros": 2258,
+      "gasto_total_senador": 1928073.59,
+      "gasto_medio_mensal_senador": 31607.763770491805,
+      "n_fornecedores_distintos": 196,
+      "n_categorias_distintas": 7,
+      "proporcao_maior_categoria": 0.22937204383365886,
+      "proporcao_maior_fornecedor": 0.15681482364996244,
+      "rank": 19
+    },
+    {
+      "cod_senador": 374,
+      "nome": "PAULO ROCHA",
+      "total": 1925138.63,
+      "n_registros": 1018,
+      "gasto_total_senador": 1925138.63,
+      "gasto_medio_mensal_senador": 35002.52054545455,
+      "n_fornecedores_distintos": 127,
+      "n_categorias_distintas": 7,
+      "proporcao_maior_categoria": 0.32012733545323957,
+      "proporcao_maior_fornecedor": 0.3235451049049907,
+      "rank": 20
+    }
+  ],
+  "rq2": {
+    "n_senadores": 176,
+    "media_por_senador": 722112.3655113636,
+    "mediana_por_senador": 412114.87,
+    "top5_pct_total": 9.00526794139899
+  },
+  "rq2_top_fornecedores": [
+    {
+      "documento_fornecedor": "16978175000108",
+      "nome_fornecedor_limpo": "ADRIA VIAGENS E TURISMO LTDA",
+      "total": 4805649.8,
+      "n_registros": 3395,
+      "n_senadores": 34,
+      "rank": 1,
+      "percentual": 3.78
+    },
+    {
+      "documento_fornecedor": "33937681000178",
+      "nome_fornecedor_limpo": "LATAM",
+      "total": 3408243.46,
+      "n_registros": 2043,
+      "n_senadores": 69,
+      "rank": 2,
+      "percentual": 2.68
+    },
+    {
+      "documento_fornecedor": "06064175000149",
+      "nome_fornecedor_limpo": "AIRES TURISMO",
+      "total": 2275574.72,
+      "n_registros": 1797,
+      "n_senadores": 35,
+      "rank": 3,
+      "percentual": 1.79
+    },
+    {
+      "documento_fornecedor": "07575651000159",
+      "nome_fornecedor_limpo": "GOL",
+      "total": 1984357.35,
+      "n_registros": 1201,
+      "n_senadores": 52,
+      "rank": 4,
+      "percentual": 1.56
+    },
+    {
+      "documento_fornecedor": "31837019000110",
+      "nome_fornecedor_limpo": "BORA COMUNICAÇÃO E MARKETING DIGITAL LTDA",
+      "total": 1475000.0,
+      "n_registros": 59,
+      "n_senadores": 1,
+      "rank": 5,
+      "percentual": 1.16
+    },
+    {
+      "documento_fornecedor": "33055400000153",
+      "nome_fornecedor_limpo": "L COELHO SERRA",
+      "total": 1305000.0,
+      "n_registros": 51,
+      "n_senadores": 1,
+      "rank": 6,
+      "percentual": 1.03
+    },
+    {
+      "documento_fornecedor": "15183160000190",
+      "nome_fornecedor_limpo": "UPLINK ASSESSORIA E CONSULTORIA EMPRESARIAL EIRELI -ME",
+      "total": 960000.0,
+      "n_registros": 32,
+      "n_senadores": 1,
+      "rank": 7,
+      "percentual": 0.76
+    },
+    {
+      "documento_fornecedor": "06983735000169",
+      "nome_fornecedor_limpo": "PARIMA LOCAÇÃO BOA VISTA LTDA",
+      "total": 893100.0,
+      "n_registros": 83,
+      "n_senadores": 2,
+      "rank": 8,
+      "percentual": 0.7
+    },
+    {
+      "documento_fornecedor": "37195146000140",
+      "nome_fornecedor_limpo": "HOME MIX PRODUÇÃO E ASSESSORIA EM RADIODIFUSÃO S/S LTDA",
+      "total": 891200.0,
+      "n_registros": 31,
+      "n_senadores": 1,
+      "rank": 9,
+      "percentual": 0.7
+    },
+    {
+      "documento_fornecedor": "09296295000160",
+      "nome_fornecedor_limpo": "AZUL",
+      "total": 837459.23,
+      "n_registros": 601,
+      "n_senadores": 31,
+      "rank": 10,
+      "percentual": 0.66
+    },
+    {
+      "documento_fornecedor": "26480780000108",
+      "nome_fornecedor_limpo": "LM TURISMO",
+      "total": 831494.53,
+      "n_registros": 402,
+      "n_senadores": 3,
+      "rank": 11,
+      "percentual": 0.65
+    },
+    {
+      "documento_fornecedor": "14294443000147",
+      "nome_fornecedor_limpo": "A. CAMACHO TORRES - VOO TURISMO",
+      "total": 743627.89,
+      "n_registros": 366,
+      "n_senadores": 1,
+      "rank": 12,
+      "percentual": 0.59
+    },
+    {
+      "documento_fornecedor": "22052777000132",
+      "nome_fornecedor_limpo": "EXCELLER TOUR",
+      "total": 732500.91,
+      "n_registros": 487,
+      "n_senadores": 1,
+      "rank": 13,
+      "percentual": 0.58
+    },
+    {
+      "documento_fornecedor": "30727829000151",
+      "nome_fornecedor_limpo": "BUNKER BRAIN AUDIOVISUAL EIRELI",
+      "total": 702190.3,
+      "n_registros": 55,
+      "n_senadores": 1,
+      "rank": 14,
+      "percentual": 0.55
+    },
+    {
+      "documento_fornecedor": "13218533000196",
+      "nome_fornecedor_limpo": "AC 24 HORAS LTDA",
+      "total": 699100.0,
+      "n_registros": 93,
+      "n_senadores": 3,
+      "rank": 15,
+      "percentual": 0.55
+    }
+  ],
+  "rq2_fornecedores": [
+    {
+      "documento_fornecedor": "16978175000108",
+      "nome_fornecedor_limpo": "ADRIA VIAGENS E TURISMO LTDA",
+      "total": 4805649.8,
+      "n_registros": 3395,
+      "n_senadores": 34,
+      "rank": 1,
+      "percentual": 3.78
+    },
+    {
+      "documento_fornecedor": "33937681000178",
+      "nome_fornecedor_limpo": "LATAM",
+      "total": 3408243.46,
+      "n_registros": 2043,
+      "n_senadores": 69,
+      "rank": 2,
+      "percentual": 2.68
+    },
+    {
+      "documento_fornecedor": "06064175000149",
+      "nome_fornecedor_limpo": "AIRES TURISMO",
+      "total": 2275574.72,
+      "n_registros": 1797,
+      "n_senadores": 35,
+      "rank": 3,
+      "percentual": 1.79
+    },
+    {
+      "documento_fornecedor": "07575651000159",
+      "nome_fornecedor_limpo": "GOL",
+      "total": 1984357.35,
+      "n_registros": 1201,
+      "n_senadores": 52,
+      "rank": 4,
+      "percentual": 1.56
+    },
+    {
+      "documento_fornecedor": "31837019000110",
+      "nome_fornecedor_limpo": "BORA COMUNICAÇÃO E MARKETING DIGITAL LTDA",
+      "total": 1475000.0,
+      "n_registros": 59,
+      "n_senadores": 1,
+      "rank": 5,
+      "percentual": 1.16
+    },
+    {
+      "documento_fornecedor": "33055400000153",
+      "nome_fornecedor_limpo": "L COELHO SERRA",
+      "total": 1305000.0,
+      "n_registros": 51,
+      "n_senadores": 1,
+      "rank": 6,
+      "percentual": 1.03
+    },
+    {
+      "documento_fornecedor": "15183160000190",
+      "nome_fornecedor_limpo": "UPLINK ASSESSORIA E CONSULTORIA EMPRESARIAL EIRELI -ME",
+      "total": 960000.0,
+      "n_registros": 32,
+      "n_senadores": 1,
+      "rank": 7,
+      "percentual": 0.76
+    },
+    {
+      "documento_fornecedor": "06983735000169",
+      "nome_fornecedor_limpo": "PARIMA LOCAÇÃO BOA VISTA LTDA",
+      "total": 893100.0,
+      "n_registros": 83,
+      "n_senadores": 2,
+      "rank": 8,
+      "percentual": 0.7
+    },
+    {
+      "documento_fornecedor": "37195146000140",
+      "nome_fornecedor_limpo": "HOME MIX PRODUÇÃO E ASSESSORIA EM RADIODIFUSÃO S/S LTDA",
+      "total": 891200.0,
+      "n_registros": 31,
+      "n_senadores": 1,
+      "rank": 9,
+      "percentual": 0.7
+    },
+    {
+      "documento_fornecedor": "09296295000160",
+      "nome_fornecedor_limpo": "AZUL",
+      "total": 837459.23,
+      "n_registros": 601,
+      "n_senadores": 31,
+      "rank": 10,
+      "percentual": 0.66
+    },
+    {
+      "documento_fornecedor": "26480780000108",
+      "nome_fornecedor_limpo": "LM TURISMO",
+      "total": 831494.53,
+      "n_registros": 402,
+      "n_senadores": 3,
+      "rank": 11,
+      "percentual": 0.65
+    },
+    {
+      "documento_fornecedor": "14294443000147",
+      "nome_fornecedor_limpo": "A. CAMACHO TORRES - VOO TURISMO",
+      "total": 743627.89,
+      "n_registros": 366,
+      "n_senadores": 1,
+      "rank": 12,
+      "percentual": 0.59
+    },
+    {
+      "documento_fornecedor": "22052777000132",
+      "nome_fornecedor_limpo": "EXCELLER TOUR",
+      "total": 732500.91,
+      "n_registros": 487,
+      "n_senadores": 1,
+      "rank": 13,
+      "percentual": 0.58
+    },
+    {
+      "documento_fornecedor": "30727829000151",
+      "nome_fornecedor_limpo": "BUNKER BRAIN AUDIOVISUAL EIRELI",
+      "total": 702190.3,
+      "n_registros": 55,
+      "n_senadores": 1,
+      "rank": 14,
+      "percentual": 0.55
+    },
+    {
+      "documento_fornecedor": "13218533000196",
+      "nome_fornecedor_limpo": "AC 24 HORAS LTDA",
+      "total": 699100.0,
+      "n_registros": 93,
+      "n_senadores": 3,
+      "rank": 15,
+      "percentual": 0.55
+    }
+  ],
+  "rq3_resumo": {
+    "n_total": 88111,
+    "n_outlier_iqr": 9803,
+    "pct_outlier_iqr": 11.13,
+    "n_anomalia_consenso": 127,
+    "pct_consenso": 0.14
+  },
+  "rq3": {
+    "n_total": 88111,
+    "n_outlier_iqr": 9803,
+    "pct_outlier_iqr": 11.13,
+    "n_anomalia_consenso": 127,
+    "pct_consenso": 0.14
+  },
+  "rq3_top20": [
+    {
+      "nome_senador_limpo": "DAVI ALCOLUMBRE",
+      "tipo_despesa_limpo": "LOCOMOÇÃO, HOSPEDAGEM, ALIMENTAÇÃO, COMBUSTÍVEIS E LUBRIFICANTES",
+      "nome_fornecedor_limpo": "AEROTOP TÁXI AÉREO LTDA - EPP",
+      "data_despesa": "2019-03-12T00:00:00",
+      "valor_limpo": 66730.0,
+      "zscore_categoria": 4.1229306530743814,
+      "anomalia_consenso": true
+    },
+    {
+      "nome_senador_limpo": "CID GOMES",
+      "tipo_despesa_limpo": "LOCOMOÇÃO, HOSPEDAGEM, ALIMENTAÇÃO, COMBUSTÍVEIS E LUBRIFICANTES",
+      "nome_fornecedor_limpo": "TAM AVIAÇÃO EXECUTIVA E TAXI AÉREO",
+      "data_despesa": "2021-03-30T00:00:00",
+      "valor_limpo": 54552.0,
+      "zscore_categoria": 3.979156110399089,
+      "anomalia_consenso": true
+    },
+    {
+      "nome_senador_limpo": "STYVENSON VALENTIM",
+      "tipo_despesa_limpo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR",
+      "nome_fornecedor_limpo": "PLANALTO MARKETING & PUBLICIDADE LTDA",
+      "data_despesa": "2023-12-13T00:00:00",
+      "valor_limpo": 83000.0,
+      "zscore_categoria": 3.8196692858070347,
+      "anomalia_consenso": true
+    },
+    {
+      "nome_senador_limpo": "STYVENSON VALENTIM",
+      "tipo_despesa_limpo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR",
+      "nome_fornecedor_limpo": "44.180.796 TATIANE DA COSTA",
+      "data_despesa": "2023-12-12T00:00:00",
+      "valor_limpo": 80000.0,
+      "zscore_categoria": 3.7841351856865533,
+      "anomalia_consenso": true
+    },
+    {
+      "nome_senador_limpo": "STYVENSON VALENTIM",
+      "tipo_despesa_limpo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR",
+      "nome_fornecedor_limpo": "ANDERSON AQUINO DE ALENCAR 03861424169",
+      "data_despesa": "2023-12-12T00:00:00",
+      "valor_limpo": 77000.0,
+      "zscore_categoria": 3.747242787214596,
+      "anomalia_consenso": true
+    },
+    {
+      "nome_senador_limpo": "SÉRGIO PETECÃO",
+      "tipo_despesa_limpo": "LOCOMOÇÃO, HOSPEDAGEM, ALIMENTAÇÃO, COMBUSTÍVEIS E LUBRIFICANTES",
+      "nome_fornecedor_limpo": "ORTIZ TAXI AEREO LTDA",
+      "data_despesa": "2021-11-25T00:00:00",
+      "valor_limpo": 39000.0,
+      "zscore_categoria": 3.7397050882333374,
+      "anomalia_consenso": true
+    },
+    {
+      "nome_senador_limpo": "STYVENSON VALENTIM",
+      "tipo_despesa_limpo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR",
+      "nome_fornecedor_limpo": "RADIO NATAL REIS MAGOS LTDA EPP",
+      "data_despesa": "2022-12-19T00:00:00",
+      "valor_limpo": 72923.16,
+      "zscore_categoria": 3.6947349438688133,
+      "anomalia_consenso": true
+    },
+    {
+      "nome_senador_limpo": "ROGÉRIO CARVALHO",
+      "tipo_despesa_limpo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR",
+      "nome_fornecedor_limpo": "LF LOCAÇÕES DE EQUIPAMENTOS E FILMAGENS LTDA. ME",
+      "data_despesa": "2020-12-02T00:00:00",
+      "valor_limpo": 72000.0,
+      "zscore_categoria": 3.6824377216700888,
+      "anomalia_consenso": true
+    },
+    {
+      "nome_senador_limpo": "MECIAS DE JESUS",
+      "tipo_despesa_limpo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR",
+      "nome_fornecedor_limpo": "FORBRAS RORAIMA LTDA",
+      "data_despesa": "2022-07-05T00:00:00",
+      "valor_limpo": 70000.0,
+      "zscore_categoria": 3.6552462815127558,
+      "anomalia_consenso": true
+    },
+    {
+      "nome_senador_limpo": "TELMÁRIO MOTA",
+      "tipo_despesa_limpo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR",
+      "nome_fornecedor_limpo": "GRÁFICA MAXTER LTDA.",
+      "data_despesa": "2022-10-25T00:00:00",
+      "valor_limpo": 70000.0,
+      "zscore_categoria": 3.6552462815127558,
+      "anomalia_consenso": true
+    },
+    {
+      "nome_senador_limpo": "MECIAS DE JESUS",
+      "tipo_despesa_limpo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR",
+      "nome_fornecedor_limpo": "F M HOLANDA LTDA",
+      "data_despesa": "2023-12-29T00:00:00",
+      "valor_limpo": 69000.0,
+      "zscore_categoria": 3.641357811677966,
+      "anomalia_consenso": true
+    },
+    {
+      "nome_senador_limpo": "SÉRGIO PETECÃO",
+      "tipo_despesa_limpo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR",
+      "nome_fornecedor_limpo": "MULT GRAF INDUSTRIA GRAFICA, EDITIRA E COMERCIAL EIRELI",
+      "data_despesa": "2021-12-13T00:00:00",
+      "valor_limpo": 65000.0,
+      "zscore_categoria": 3.583714926731725,
+      "anomalia_consenso": true
+    },
+    {
+      "nome_senador_limpo": "ANGELO CORONEL",
+      "tipo_despesa_limpo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR",
+      "nome_fornecedor_limpo": "MOVE INSTALAÇÃO E AGENCIAMENTO",
+      "data_despesa": "2019-12-26T00:00:00",
+      "valor_limpo": 65000.0,
+      "zscore_categoria": 3.583714926731725,
+      "anomalia_consenso": true
+    },
+    {
+      "nome_senador_limpo": "MECIAS DE JESUS",
+      "tipo_despesa_limpo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR",
+      "nome_fornecedor_limpo": "F M HOLANDA LTDA",
+      "data_despesa": "2021-12-30T00:00:00",
+      "valor_limpo": 60300.0,
+      "zscore_categoria": 3.511269393572717,
+      "anomalia_consenso": true
+    },
+    {
+      "nome_senador_limpo": "JAYME CAMPOS",
+      "tipo_despesa_limpo": "LOCOMOÇÃO, HOSPEDAGEM, ALIMENTAÇÃO, COMBUSTÍVEIS E LUBRIFICANTES",
+      "nome_fornecedor_limpo": "AIR BP BRASIL LTDA",
+      "data_despesa": "2023-11-29T00:00:00",
+      "valor_limpo": 27776.56,
+      "zscore_categoria": 3.4975616470088684,
+      "anomalia_consenso": true
+    },
+    {
+      "nome_senador_limpo": "JAYME CAMPOS",
+      "tipo_despesa_limpo": "LOCOMOÇÃO, HOSPEDAGEM, ALIMENTAÇÃO, COMBUSTÍVEIS E LUBRIFICANTES",
+      "nome_fornecedor_limpo": "AIR BP BRASIL LTDA",
+      "data_despesa": "2023-10-02T00:00:00",
+      "valor_limpo": 24474.04,
+      "zscore_categoria": 3.407246531328906,
+      "anomalia_consenso": true
+    },
+    {
+      "nome_senador_limpo": "ANGELO CORONEL",
+      "tipo_despesa_limpo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR",
+      "nome_fornecedor_limpo": "MOVE INSTALAÇÃO E AGENCIAMENTO",
+      "data_despesa": "2021-03-29T00:00:00",
+      "valor_limpo": 52000.0,
+      "zscore_categoria": 3.368330243553966,
+      "anomalia_consenso": true
+    },
+    {
+      "nome_senador_limpo": "STYVENSON VALENTIM",
+      "tipo_despesa_limpo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR",
+      "nome_fornecedor_limpo": "BANDEIRANTES PROPAGANDA POTIGUAR LTDA",
+      "data_despesa": "2022-12-19T00:00:00",
+      "valor_limpo": 49476.84,
+      "zscore_categoria": 3.3203207888901263,
+      "anomalia_consenso": true
+    },
+    {
+      "nome_senador_limpo": "DR. HIRAN",
+      "tipo_despesa_limpo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR",
+      "nome_fornecedor_limpo": "DIA A DIA INDUSTRIA E GRAFICA LTDA",
+      "data_despesa": "2023-09-11T00:00:00",
+      "valor_limpo": 48500.0,
+      "zscore_categoria": 3.3010733261308944,
+      "anomalia_consenso": true
+    },
+    {
+      "nome_senador_limpo": "JAQUES WAGNER",
+      "tipo_despesa_limpo": "LOCOMOÇÃO, HOSPEDAGEM, ALIMENTAÇÃO, COMBUSTÍVEIS E LUBRIFICANTES",
+      "nome_fornecedor_limpo": "IDEALCAR LOCAÇÃO DE VEICULOS E TRANSPORTES LTDA.",
+      "data_despesa": "2020-12-30T00:00:00",
+      "valor_limpo": 21000.0,
+      "zscore_categoria": 3.2980163252640597,
+      "anomalia_consenso": true
+    }
+  ],
+  "rq4_serie": [
+    {
+      "ano": 2019,
+      "total": 25247728.61,
+      "n": 21634,
+      "media": 1167.0393182028288,
+      "mediana": 345.83,
+      "yoy_pct": NaN
+    },
+    {
+      "ano": 2020,
+      "total": 20414923.6,
+      "n": 14090,
+      "media": 1448.8945067423706,
+      "mediana": 389.925,
+      "yoy_pct": -19.14
+    },
+    {
+      "ano": 2021,
+      "total": 25020323.84,
+      "n": 16827,
+      "media": 1486.9153051643193,
+      "mediana": 500.0,
+      "yoy_pct": 22.56
+    },
+    {
+      "ano": 2022,
+      "total": 27323316.33,
+      "n": 16805,
+      "media": 1625.903976792621,
+      "mediana": 481.44,
+      "yoy_pct": 9.2
+    },
+    {
+      "ano": 2023,
+      "total": 29085483.95,
+      "n": 18755,
+      "media": 1550.8122607304717,
+      "mediana": 442.0,
+      "yoy_pct": 6.45
+    }
+  ],
+  "rq4": [
+    {
+      "ano": 2019,
+      "total": 25247728.61,
+      "n": 21634,
+      "media": 1167.0393182028288,
+      "mediana": 345.83,
+      "yoy_pct": NaN
+    },
+    {
+      "ano": 2020,
+      "total": 20414923.6,
+      "n": 14090,
+      "media": 1448.8945067423706,
+      "mediana": 389.925,
+      "yoy_pct": -19.14
+    },
+    {
+      "ano": 2021,
+      "total": 25020323.84,
+      "n": 16827,
+      "media": 1486.9153051643193,
+      "mediana": 500.0,
+      "yoy_pct": 22.56
+    },
+    {
+      "ano": 2022,
+      "total": 27323316.33,
+      "n": 16805,
+      "media": 1625.903976792621,
+      "mediana": 481.44,
+      "yoy_pct": 9.2
+    },
+    {
+      "ano": 2023,
+      "total": 29085483.95,
+      "n": 18755,
+      "media": 1550.8122607304717,
+      "mediana": 442.0,
+      "yoy_pct": 6.45
+    }
+  ],
+  "rq4_pandemia": [
+    {
+      "periodo_pandemia": "pre_pandemia",
+      "total": 28566493.12,
+      "n_registros": 24682,
+      "media": 1157.3816189935985,
+      "mediana": 345.395,
+      "percentual": 22.48
+    },
+    {
+      "periodo_pandemia": "pandemia",
+      "total": 51117442.14,
+      "n_registros": 33822,
+      "media": 1511.3666294128082,
+      "mediana": 469.275,
+      "percentual": 40.22
+    },
+    {
+      "periodo_pandemia": "pos_pandemia",
+      "total": 47406079.91,
+      "n_registros": 29604,
+      "media": 1601.3403563707607,
+      "mediana": 452.475,
+      "percentual": 37.3
+    }
+  ],
+  "rq4_pandemia_fig": [
+    {
+      "periodo_pandemia": "pre_pandemia",
+      "total": 28566493.12,
+      "n_registros": 24682,
+      "media": 1157.3816189935985,
+      "mediana": 345.395,
+      "percentual": 22.48
+    },
+    {
+      "periodo_pandemia": "pandemia",
+      "total": 51117442.14,
+      "n_registros": 33822,
+      "media": 1511.3666294128082,
+      "mediana": 469.275,
+      "percentual": 40.22
+    },
+    {
+      "periodo_pandemia": "pos_pandemia",
+      "total": 47406079.91,
+      "n_registros": 29604,
+      "media": 1601.3403563707607,
+      "mediana": 452.475,
+      "percentual": 37.3
+    }
+  ],
+  "rq4_sazonalidade": "ver figures/rq4_sazonalidade.png",
+  "metadata": {
+    "timestamp": "2026-06-07T12:56:13.574051",
+    "n_registros": 88111,
+    "n_senadores": 176,
+    "gasto_total": 127091776.33,
+    "figuras_em": "C:\\Users\\olive\\OneDrive\\Documentos\\UnB\\CE\\Artigo\\ceap-56-legislatura\\figures"
+  }
+}
